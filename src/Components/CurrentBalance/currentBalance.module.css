@@ -1,0 +1,10 @@
+.balanceHeading {
+  font-size: 22px;
+  margin: 0px;
+}
+.currentBalance {
+  margin: 0px;
+  font-size: 32px;
+  font-weight: bold;
+  color: green;
+}

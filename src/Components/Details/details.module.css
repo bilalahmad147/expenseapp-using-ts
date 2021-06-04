@@ -1,0 +1,21 @@
+.mainDiv {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+.income > h3,
+h1 {
+  margin: 0px;
+}
+.expense > h3,
+h1 {
+  margin: 0px;
+}
+.income {
+  color: green;
+}
+.expense {
+  color: red;
+}

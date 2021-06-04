@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import AddnewTrans from "./Components/AddNewTrans/addNewTrans";
+import CurrentBalance from "./Components/CurrentBalance/currentBalance";
+import Details from "./Components/Details/details";
+import History from "./Components/History/history";
+// import { TransProvider } from "./Components/TransContext/transContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <TransProvider>
+      <div className="main-container">
+        <CurrentBalance />
+        <Details />
+        <History />
+        <AddnewTrans />
+      </div>
+    // </TransProvider>
   );
 }
 

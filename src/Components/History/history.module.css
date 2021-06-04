@@ -1,0 +1,21 @@
+.mainDivIncome {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  border-right: 10px solid green;
+}
+.mainDivExpense {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  border-right: 10px solid red;
+}
+.delBtn {
+  margin: 10px;
+}
